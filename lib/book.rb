@@ -41,7 +41,7 @@ book = Book.new("Some Title")
 book.turn_page
 
 
-class Book
+=begin class Book
   attr_accessor :author, :page_count, :genre
   attr_reader :title
  
@@ -54,3 +54,4 @@ class Book
   end
  
 end
+=end
