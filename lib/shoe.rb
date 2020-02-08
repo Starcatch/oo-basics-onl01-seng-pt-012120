@@ -8,7 +8,9 @@ class Shoe
   
   def cobble()
     self.condition = "new"
+    puts "The shoe has been repaied!"
  end 
+ 
 end
 
 Shoe.new("Nike")
