@@ -6,3 +6,5 @@ class Shoe
     @brand = brand
   end
 end
+
+Shoe.new("Nike")
