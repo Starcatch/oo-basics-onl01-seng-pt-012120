@@ -1,13 +1,14 @@
 class Shoe
-  attr_accessor :size, :brand, :material, :color
-  
+  attr_accessor :size, :material, :color
+  attr_reader :brand = "Adidas"
  
   def initialize(brand)
     @brand = brand
   end
  
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
+  def new_shoe
+    
+    
   end
  
 end
