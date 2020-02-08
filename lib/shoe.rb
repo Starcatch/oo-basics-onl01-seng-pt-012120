@@ -3,7 +3,7 @@ class Shoe
   
  
   def initialize(brand)
-    @title = title
+    @brand = brand
   end
  
   def turn_page
